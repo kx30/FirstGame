@@ -19,18 +19,18 @@ import java.util.Iterator;
 
 public class Main extends ApplicationAdapter {
 
-    Vector3 touchPos;
+    private Vector3 touchPos;
 
-    OrthographicCamera camera;
-    SpriteBatch batch;
-    Texture dropImage;
-    Texture bucketImage;
-    Sound dropSound;
-    Music rainMusic;
+    private OrthographicCamera camera;
+    private SpriteBatch batch;
+    private Texture dropImage;
+    private Texture bucketImage;
+    private Sound dropSound;
+    private Music rainMusic;
 
-    Rectangle bucket;
+    private Rectangle bucket;
 
-    Array<Rectangle> raindrops;
+    private Array<Rectangle> raindrops;
 
     long lastDropTime;
 
